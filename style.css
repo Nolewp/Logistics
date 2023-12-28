@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #ffffffdc; /* Different shade of red */
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.im-logistics {
+font-weight: bold;
+color: blue;
+}
+
+.im-logistics span {
+    font-weight: normal; /* Reset font-weight for "Logistics" */
+    color: white;
+}
+
+nav {
+    background-color: #6196ff; /* Coral red */
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 1em;
+}
+
+.nav-link {
+    color: #000;
+  }
+.nav-link:hover { 
+    color: rgb(228, 226, 226) !important; 
+}
+
+section{
+    padding: 2em;
+    text-align: center; /* Center content in the section */
+}
+
+
+#thanks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 90vh;
+}
+
+footer {
+    background-color: #6196ff; /* Different shade of red */
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
