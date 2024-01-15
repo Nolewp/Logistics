@@ -3,6 +3,15 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.contain {
+    min-height: 100vh;
+    max-width: 1000px; /* Set your desired maximum width for larger screens */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add some padding if needed */
 }
 
 header {
@@ -13,8 +22,8 @@ header {
 }
 
 .im-logistics {
-font-weight: bold;
-color: blue;
+    font-weight: bold;
+    color: blue;
 }
 
 .im-logistics span {
@@ -23,10 +32,14 @@ color: blue;
 }
 
 nav {
-    background-color: #6196ff; /* Coral red */
+    background-color: #ffffff; /* Coral red */
     color: #fff;
     text-align: center;
     padding: 1em 0;
+}
+
+.navbar-nav-custom {
+    margin-left: 5vw;
 }
 
 nav a {
@@ -36,6 +49,8 @@ nav a {
 }
 
 .nav-link {
+    font-size: 1.1rem;
+    font-weight: bold;
     color: #000;
   }
 .nav-link:hover { 
@@ -48,9 +63,26 @@ nav a {
 section{
     padding: 2em;
     text-align: center; /* Center content in the section */
+    
 }
 
-
+#home {
+    padding-top: 25vh;
+    font-size: 1.5em;
+    color: white;
+    text-shadow: 3px 3px 4px #000000;
+    min-height: 100vh;
+}
+.home-container{
+    background-image: url('Chicago\ Skyline\ 2.jpeg'); /* Replace 'path/to/your/chicago-image.jpg' with the actual path to your image */
+    background-size: cover; /* This property ensures that the background image covers the entire viewport */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    min-height: auto; /* Make sure the background covers the entire height of the viewport */
+    margin: 0; /* Remove default margin */
+    background-attachment: local;
+    overflow: auto;
+}
 #thanks {
     display: flex;
     justify-content: center;
@@ -60,8 +92,10 @@ section{
 }
 
 footer {
-    background-color: #6196ff; /* Different shade of red */
-    color: #fff;
+    padding-top: auto;
+    bottom: 0;
+    background-color: #ffffff; /* Different shade of red */
+    color: #000000;
     text-align: center;
     padding: 1em 0;
 }
