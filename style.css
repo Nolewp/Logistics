@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+  
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -62,8 +63,16 @@ nav a {
 
 section{
     padding: 2em;
+    font-size: 1.2em;
     text-align: center; /* Center content in the section */
-    
+}
+
+section h2 {
+    color: rgb(0, 179, 255);
+}
+
+section h5 {
+    color: darkgray;
 }
 
 #home {
@@ -83,6 +92,18 @@ section{
     background-attachment: local;
     overflow: auto;
 }
+
+#Customers {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    
+}
+
+#Customers p {
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
 #thanks {
     display: flex;
     justify-content: center;
