@@ -74,6 +74,7 @@ section h5 {
     text-shadow: 3px 3px 4px #000000;
     min-height: 100vh;
 }
+
 .home-container{
     background-image: url('Chicago\ Skyline\ 2.jpeg'); /* Replace 'path/to/your/chicago-image.jpg' with the actual path to your image */
     background-size: cover; /* This property ensures that the background image covers the entire viewport */
@@ -88,13 +89,18 @@ section h5 {
 #Customers {
     margin-top: 10vh;
     margin-bottom: 10vh;
-    
 }
 
 #Customers p {
     margin-left: 15vw;
     margin-right: 15vw;
 }
+@media screen and (max-width: 1000px) {
+    #Customers p {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
 
 #thanks {
     display: flex;
