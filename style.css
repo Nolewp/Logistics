@@ -95,6 +95,7 @@ section h5 {
     margin-left: 15vw;
     margin-right: 15vw;
 }
+
 @media screen and (max-width: 1000px) {
     #Customers p {
       margin-left: 0;
