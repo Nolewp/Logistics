@@ -111,6 +111,19 @@ section h5 {
     min-height: 90vh;
 }
 
+article a {
+    text-decoration: none;
+
+}
+
+
+article ul li {
+    text-align: left;
+}
+a {
+    text-decoration: none !important;
+  }
+
 footer {
     padding-top: auto;
     bottom: 0;
